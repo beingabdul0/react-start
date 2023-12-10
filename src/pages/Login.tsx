@@ -6,8 +6,8 @@ function Login() {
   return (
     <>
       <h1>Login</h1>
-      <KendoEmailInput value={""} placeHolder={"Enter Email"} />
-      <KendoPasswordInput value={""} placeHolder={"Enter Password"} />
+      <KendoEmailInput placeHolder={"Enter Email"} />
+      <KendoPasswordInput placeHolder={"Enter Password"} />
       <KendoButton text={"Login"} themeColor={"success"} />
     </>
   );
